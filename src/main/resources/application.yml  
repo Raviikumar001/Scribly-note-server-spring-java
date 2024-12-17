@@ -1,0 +1,19 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URL}
+
+jwt:
+  secret: ${SECRET_KEY}
+
+google:
+  client:
+    id: ${GOOGLE_CLIENT_ID}
+    secret: ${GOOGLE_CLIENT_SECRET}
+
+app:
+  client:
+    url: ${CLIENT}
+
+server:
+  port: ${PORT:8080}

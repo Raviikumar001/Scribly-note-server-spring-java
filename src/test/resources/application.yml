@@ -1,0 +1,22 @@
+spring:
+  data:
+    mongodb:
+      database: test-db
+  mongodb:
+    embedded:
+      version: 4.0.21
+
+jwt:
+  secret: test-secret-key
+
+google:
+  client:
+    id: test-client-id
+    secret: test-client-secret
+
+app:
+  client:
+    url: http://localhost:3000
+
+server:
+  port: 8080
